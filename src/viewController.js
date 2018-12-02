@@ -6,7 +6,6 @@ export class ChartsViewController extends Component {
 
   render() {
     
-    
     return (
         <View style={{flex: 1}}>
           <View style={styles.container}>

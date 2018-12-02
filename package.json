@@ -1,15 +1,13 @@
 {
   "name": "react-native-charts-view-controller",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.6",
   "author": "zry",
   "repository": {
     "type": "git",
     "url": "https://github.com/zry754331875/react-native-charts-view-controller"
   },
   "scripts": {
-    "start": "node ./node_modules/react-native/local-cli/cli.js start",
-    "postinstall": "sed -i '' 's/#import <RCTAnimation\\/RCTValueAnimatedNode.h>/#import \"RCTValueAnimatedNode.h\"/' ./node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h"
+    "start": "node ./node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.5",
