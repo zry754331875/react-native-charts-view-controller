@@ -1,7 +1,9 @@
 import React from 'react';
 import {AppRegistry} from 'react-native';
-import  ChartsViewController from './src/viewController';
+import  ChartListViewController from './src/ChartListViewController';
 
 module.exports={
-    ChartsViewController
+    ChartListViewController
 }
+
+AppRegistry.registerComponent('ChartListViewController', () => ChartListViewController)

@@ -1,0 +1,61 @@
+{
+    "data": [{
+        "type": "BarChart",
+        "chartData": {
+            "data": {
+                "dataSets": [{
+                    "values": [{
+                        "y": 100
+                    }, {
+                        "y": 105
+                    }, {
+                        "y": 102
+                    }, {
+                        "y": 110
+                    }, {
+                        "y": 114
+                    }, {
+                        "y": 109
+                    }, {
+                        "y": 105
+                    }, {
+                        "y": 99
+                    }, {
+                        "y": 95
+                    }],
+                    "label": "Bar Demo"
+                }]
+            }
+        }
+    }, {
+        "type": "PieChart",
+        "chartData": {
+            "data": {
+                "dataSets": [{
+                    "values": [{
+                        "value": 45,
+                        "label": "Sandwiches"
+                    }, {
+                        "value": 10,
+                        "label": "Salads"
+                    },{
+                        "value": 6,
+                        "label": "Sa"
+                    },{
+                        "value": 5,
+                        "label": "Salad"
+                    }, {
+                        "value": 15,
+                        "label": "Soup"
+                    }, {
+                        "value": 9,
+                        "label": "Beverages"
+                    }, {
+                        "value": 15,
+                        "label": "Desserts"
+                    }]
+                }]
+            }
+        }
+    }]
+}

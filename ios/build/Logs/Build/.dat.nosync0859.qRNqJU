@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>13EF2F9A-CAFD-4D17-804E-94978EC3FB11</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>13EF2F9A-CAFD-4D17-804E-94978EC3FB11.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>565578938.22824204</real>
+			<key>timeStoppedRecording</key>
+			<real>565578941.23615503</real>
+			<key>title</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>13EF2F9A-CAFD-4D17-804E-94978EC3FB11</string>
+		</dict>
+		<key>155A5FC1-E2E0-4403-B1E1-64BC34409582</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>155A5FC1-E2E0-4403-B1E1-64BC34409582.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>565578787.88650095</real>
+			<key>timeStoppedRecording</key>
+			<real>565578790.18042898</real>
+			<key>title</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>155A5FC1-E2E0-4403-B1E1-64BC34409582</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

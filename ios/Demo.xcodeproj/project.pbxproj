@@ -14,6 +14,7 @@
 		5B14F21821AF6A5B00C456D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B14F21721AF6A5B00C456D3 /* Assets.xcassets */; };
 		5B14F21B21AF6A5B00C456D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B14F21921AF6A5B00C456D3 /* LaunchScreen.storyboard */; };
 		5B14F21E21AF6A5B00C456D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B14F21D21AF6A5B00C456D3 /* main.m */; };
+		5B74836A21B52AD100B274BF /* DemoProps.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B74836921B52AD100B274BF /* DemoProps.json */; };
 		5B8071C121AF745900B68A1D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8071C021AF745900B68A1D /* File.swift */; };
 		5B80720521AFC1A500B68A1D /* RNScatterChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8071C421AFC1A300B68A1D /* RNScatterChartManager.swift */; };
 		5B80720621AFC1A500B68A1D /* RNScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8071C521AFC1A300B68A1D /* RNScatterChartView.swift */; };
@@ -82,6 +83,7 @@
 		5B14F21A21AF6A5B00C456D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B14F21C21AF6A5B00C456D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B14F21D21AF6A5B00C456D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B74836921B52AD100B274BF /* DemoProps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoProps.json; sourceTree = "<group>"; };
 		5B8071BF21AF745900B68A1D /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B8071C021AF745900B68A1D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		5B8071C421AFC1A300B68A1D /* RNScatterChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartManager.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				5B14F21D21AF6A5B00C456D3 /* main.m */,
 				5B8071C021AF745900B68A1D /* File.swift */,
 				5B8071BF21AF745900B68A1D /* Demo-Bridging-Header.h */,
+				5B74836921B52AD100B274BF /* DemoProps.json */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				5B14F21B21AF6A5B00C456D3 /* LaunchScreen.storyboard in Resources */,
 				5B14F21821AF6A5B00C456D3 /* Assets.xcassets in Resources */,
 				5B14F21621AF6A5A00C456D3 /* Main.storyboard in Resources */,
+				5B74836A21B52AD100B274BF /* DemoProps.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,7 +682,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zry.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
@@ -697,7 +704,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zry.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";

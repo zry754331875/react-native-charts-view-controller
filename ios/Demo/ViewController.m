@@ -20,24 +20,18 @@
     [super viewDidLoad];
     NSURL *jsCodeLocation = [NSURL URLWithString:@"http://127.0.0.1:8081/index.bundle?platform=ios"];
     
+    NSURL *jsonURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"DemoProps" ofType:@"json"]];
+    
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:jsonURL] options:NSJSONReadingMutableContainers error:nil];
+    
+    NSLog(@"%@",dic);
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL: jsCodeLocation
-                                moduleName: @"ChartsViewController"
-                         initialProperties:
-     @{
-       @"scores" : @[
-               @{
-                   @"name" : @"Alex",
-                   @"value": @"42"
-                   },
-               @{
-                   @"name" : @"Joel",
-                   @"value": @"10"
-                   }
-               ]
-       }
+                                moduleName: @"ChartListViewController"
+                         initialProperties:dic
                              launchOptions: nil];
     
+//    rootView.frame = CGRectMake(0, 64, rootView.bounds.size.width, rootView.bounds.size.height);
     self.view = rootView;
 }
 
