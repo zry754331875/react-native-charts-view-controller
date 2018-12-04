@@ -14,10 +14,10 @@ Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-c
 - CandleStick
 
 ## Steps
-- 1. Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
-- 2. npm i react-native-charts-view-controller
-- 3. 
-```
+ 1. Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
+ 2. npm i react-native-charts-view-controller
+ 3. import ChartsViewController like this.
+ ```
 import  {ChartsViewController} from 'react-native-charts-view-controller';
 
 class App extends Component {
@@ -50,6 +50,6 @@ class App extends Component {
         }
     }]
 ```
->About ChartProps You can see [this](https://github.com/wuxudong/react-native-charts-wrapper/blob/master/docs.md)
+About ChartProps You can see [this](https://github.com/wuxudong/react-native-charts-wrapper/blob/master/docs.md)
 
 
