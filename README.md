@@ -3,7 +3,7 @@
 ## Introduction
 Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper).
 
-##Supported Chart Type
+## Supported Chart Type
 - Bar(Stack,Group)
 - Line
 - Scatter
@@ -13,7 +13,7 @@ Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-c
 - Combined
 - CandleStick
 
-##Steps
+## Steps
 - 1. Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
 - 2. npm i react-native-charts-view-controller
 - 3. 
