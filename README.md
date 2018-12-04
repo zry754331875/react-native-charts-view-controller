@@ -12,10 +12,11 @@ Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-c
 - Radar
 - Combined
 - CandleStick
+
 ##Steps
-- 1.Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
-- 2.`  npm i react-native-charts-view-controller `
-- 3.
+- 1. Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
+- 2. npm i react-native-charts-view-controller
+- 3. 
 ```
 import  {ChartsViewController} from 'react-native-charts-view-controller';
 
