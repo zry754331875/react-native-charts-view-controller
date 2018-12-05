@@ -4,7 +4,7 @@
 Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper).
 
 ## Supported Chart Type
-- Bar(Stack,Group)
+- Bar
 - Line
 - Scatter
 - Bubble

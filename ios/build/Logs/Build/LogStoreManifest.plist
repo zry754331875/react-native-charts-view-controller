@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>9A10CFE8-3DA8-4773-AD35-BE2D01C0047B</key>
+		<key>26CA3D5F-BB67-41BB-9C73-43B377B639B7</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9A10CFE8-3DA8-4773-AD35-BE2D01C0047B.xcactivitylog</string>
+			<string>26CA3D5F-BB67-41BB-9C73-43B377B639B7.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>565598572.06286001</real>
+			<real>565691468.35438299</real>
 			<key>timeStoppedRecording</key>
-			<real>565598575.81520796</real>
+			<real>565691473.52028704</real>
 			<key>title</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>9A10CFE8-3DA8-4773-AD35-BE2D01C0047B</string>
-		</dict>
-		<key>E111BEAC-9D70-4327-9878-C89C085AF189</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E111BEAC-9D70-4327-9878-C89C085AF189.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Demo project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Demo</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>565598808.96968997</real>
-			<key>timeStoppedRecording</key>
-			<real>565598812.14613605</real>
-			<key>title</key>
-			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>E111BEAC-9D70-4327-9878-C89C085AF189</string>
+			<string>26CA3D5F-BB67-41BB-9C73-43B377B639B7</string>
 		</dict>
 	</dict>
 </dict>

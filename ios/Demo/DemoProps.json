@@ -38,10 +38,10 @@
                     }, {
                         "value": 10,
                         "label": "Salads"
-                    },{
+                    }, {
                         "value": 6,
                         "label": "Sa"
-                    },{
+                    }, {
                         "value": 5,
                         "label": "Salad"
                     }, {
@@ -55,6 +55,90 @@
                         "label": "Desserts"
                     }]
                 }]
+            }
+        }
+
+    }, {
+        "type": "LineChart",
+        "chartData": {
+            "data": {
+                "dataSets": [{
+                    "values": [{
+                        "x": 4,
+                        "y": 135
+                    }, {
+                        "x": 5,
+                        "y": 0.88
+                    }, {
+                        "x": 6,
+                        "y": 0.77
+                    }, {
+                        "x": 7,
+                        "y": 105
+                    }],
+                    "label": "A"
+                }, {
+                    "values": [{
+                        "x": 4,
+                        "y": 105
+                    }, {
+                        "x": 5,
+                        "y": 90
+                    }, {
+                        "x": 6,
+                        "y": 130
+                    }, {
+                        "x": 7,
+                        "y": 100
+                    }],
+                    "label": "B"
+                }, {
+                    "values": [{
+                        "x": 4,
+                        "y": 110
+                    }, {
+                        "x": 5,
+                        "y": 110
+                    }, {
+                        "x": 6,
+                        "y": 105
+                    }, {
+                        "x": 7,
+                        "y": 115
+                    }],
+                    "label": "C"
+                }]
+            }
+        }
+    }, {
+        "type": "HorizontalBarChart",
+        "chartData": {
+            "data": {
+                "dataSets": [{
+                    "values": [{
+                        "y": 100
+                    }, {
+                        "y": 105
+                    }, {
+                        "y": 102
+                    }, {
+                        "y": 110
+                    }, {
+                        "y": 114
+                    }, {
+                        "y": 109
+                    }, {
+                        "y": 105
+                    }, {
+                        "y": 99
+                    }, {
+                        "y": 95
+                    }],
+                    "label":"这是一个Label"
+                }]
+            },
+            "xAxis": {
+                "valueFormatter": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"]
             }
         }
     }]

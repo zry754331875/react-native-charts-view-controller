@@ -1,142 +1,96 @@
-import React, { Component } from 'react'
-import {StyleSheet, SafeAreaView, View,FlatList,processColor} from 'react-native';
-import merge from 'deepmerge'
-import { combineMerge } from "./utils";
-import {BarChart,
-  HorizontalBarChart,
-  BubbleChart,
-  CandleStickChart,
-  LineChart,
-  PieChart,
-  RadarChart,
-  ScatterChart,
-  CombinedChart} from 'react-native-charts-wrapper';
-
+import React, { Component } from "react";
 import {
-  BarChartStyle,
-  PieChartStyle
-} from './DefaultStyle';
-
-const Charts = {
-  'BarChart':BarChart,
-  'HorizontalBarChart':HorizontalBarChart,
-  'BubbleChart':BubbleChart,
-  'CandleStickChart':CandleStickChart,
-  'LineChart':LineChart,
-  'PieChart':PieChart,
-  'RadarChart':RadarChart,
-  'ScatterChart':ScatterChart,
-  'CombinedChart':CombinedChart
-}
-
-const ChartsStyles = {
-  'BarChart':BarChartStyle,
-  'PieChart':PieChartStyle,
-}
+  StyleSheet,
+  SafeAreaView,
+  View,
+  FlatList,
+  processColor
+} from "react-native";
+import ChartView from "./ChartView";
 
 export class ChartListViewController extends Component {
-
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
 
     var demoData = {
       legend: {
         enabled: true,
-        textSize: 15,
-        form: "CIRCLE",
-
-        horizontalAlignment: "RIGHT",
-        verticalAlignment: "CENTER",
-        orientation: "VERTICAL",
-        wordWrapEnabled: true
+        textSize: 14,
+        form: "SQUARE",
+        formSize: 14,
+        xEntrySpace: 10,
+        yEntrySpace: 5,
+        formToTextSpace: 5,
+        wordWrapEnabled: true,
+        maxSizePercent: 0.5
       },
       data: {
         dataSets: [
           {
             values: [
-              { value: 45, label: "Sandwiches" },
-              { value: 21, label: "Salads" },
-              { value: 15, label: "Soup" },
-              { value: 9, label: "Beverages" },
-              { value: 15, label: "Desserts" }
+              { y: 100 },
+              { y: 105 },
+              { y: 102 },
+              { y: 110 },
+              { y: 114 },
+              { y: 109 },
+              { y: 105 },
+              { y: 99 },
+              { y: 95 }
             ],
-            label: "Pie dataset",
+            label: "Bar dataSet",
             config: {
-              colors: [
-                processColor("#C0FF8C"),
-                processColor("#FFF78C"),
-                processColor("#FFD08C"),
-                processColor("#8CEAFF"),
-                processColor("#FF8C9D")
-              ],
-              valueTextSize: 20,
-              valueTextColor: processColor("green"),
-              sliceSpace: 5,
-              selectionShift: 13,
-              // xValuePosition: "OUTSIDE_SLICE",
-              // yValuePosition: "OUTSIDE_SLICE",
-              valueFormatter: "#.#'%'",
-              valueLineColor: processColor("green"),
-              valueLinePart1Length: 0.5
+              color: processColor("teal"),
+              barShadowColor: processColor("lightgrey"),
+              highlightAlpha: 90,
+              highlightColor: processColor("red")
             }
           }
         ]
       },
-      highlights: [{ x: 2 }],
-      description: {
-        text: "This is Pie chart description",
-        textSize: 15,
-        textColor: processColor("darkgray")
-      }
+      xAxis: {
+        valueFormatter: [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep"
+        ],
+        position: "BOTTOM",
+        granularityEnabled: true,
+        granularity: 1,
+        labelCount: 10
+      },
+      yAxis: { left: { axisMinimum: 0 } }
     };
 
-    console.log(JSON.stringify(demoData))
+    console.log(JSON.stringify(demoData));
   }
 
-  _keyExtractor = (_,index)=>`${index}`
+  _keyExtractor = (_, index) => `${index}`;
 
-  _renderItem=({item,index})=>{
-    console.log('item',item)
-
-    if(!ChartsStyles[item.type] || !Charts[item.type]){
-      return (<View></View>)
-    }
-
-    let chartProps = merge(ChartsStyles[item.type],item.chartData,{ arrayMerge: combineMerge })
-    console.log('chartProps',chartProps)
-    return (
-      <View style={{...styles.container}}>
-          {
-            React.createElement(Charts[item.type],{...styles.chart,...chartProps})
-          }
-      </View>
-    )
-  }
+  _renderItem = ({ item, index }) => {
+    return <ChartView item={item}/>;
+  };
 
   render() {
-    
-    const {data} = this.props
+    const { data } = this.props;
 
     return (
       <SafeAreaView>
-          <FlatList
-            keyExtractor={this._keyExtractor}
-            data={data}
-            renderItem={(item)=>this._renderItem(item)}
-          />
+        <FlatList
+          style={{flex: 1,}}
+          keyExtractor={this._keyExtractor}
+          data={data}
+          renderItem={item => this._renderItem(item)}
+        />
       </SafeAreaView>
-      );
+    );
   }
 }
 
-const styles = StyleSheet.create({
-    container: {
-      height:300,
-      backgroundColor: '#F5FCFF'
-    },
-    chart: {
-      flex:1
-    }
-  });
-
-export default ChartListViewController
+export default ChartListViewController;
