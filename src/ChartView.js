@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {StyleSheet, SafeAreaView, View,FlatList,processColor} from 'react-native';
 import merge from 'deepmerge'
+import PropTypes from 'prop-types';
 import { combineMerge } from "./utils";
 import {BarChart,
   HorizontalBarChart,
@@ -10,7 +11,8 @@ import {BarChart,
   PieChart,
   RadarChart,
   ScatterChart,
-  CombinedChart} from 'react-native-charts-wrapper';
+  CombinedChart,
+} from 'react-native-charts-wrapper';
 
 import {
   BarChartStyle,
@@ -43,13 +45,12 @@ export class ChartView extends Component {
   render() {
     
     const {item,style} = this.props
-    
+    console.log(item)
     if(!ChartsStyles[item.type] || !Charts[item.type]){
       return (<View></View>)
     }
-    console.log(item)
+    
     let chartProps = merge(ChartsStyles[item.type],item.chartData,{ arrayMerge: combineMerge })
-    // console.log('chartProps',chartProps)
 
     return (
       <View style={{...style}}>
@@ -71,4 +72,19 @@ const styles = StyleSheet.create({
     }
   });
 
-export default ChartView
+  ChartView.propTypes = {
+    item:PropTypes.shape({
+      type:PropTypes.oneOf["BarChart",
+      "HorizontalBarChart",
+      "BubbleChart",
+      "CandleStickChart",
+      "LineChart",
+      "PieChart",
+      "RadarChart",
+      "ScatterChart",
+      "CombinedChart"],
+      chartData:PropTypes.object,
+    })
+  }
+
+  export default ChartView

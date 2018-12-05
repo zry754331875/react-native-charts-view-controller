@@ -61,6 +61,9 @@
     }, {
         "type": "LineChart",
         "chartData": {
+            "chartDescription": {
+                "text": "1234"
+            },
             "data": {
                 "dataSets": [{
                     "values": [{
@@ -134,7 +137,7 @@
                     }, {
                         "y": 95
                     }],
-                    "label":"这是一个Label"
+                    "label":""
                 }]
             },
             "xAxis": {

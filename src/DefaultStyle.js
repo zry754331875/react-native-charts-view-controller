@@ -14,7 +14,7 @@ const CommonChartStyle = {
     x: 0
   }],
   chartDescription: {
-    // text: "This is chart description",
+    text: "",
     textSize: 15,
     textColor: processColor("darkgray")
   }

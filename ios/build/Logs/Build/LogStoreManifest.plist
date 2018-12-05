@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>26CA3D5F-BB67-41BB-9C73-43B377B639B7</key>
+		<key>9A26962C-6DE8-4125-A9A8-D66169501E76</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>26CA3D5F-BB67-41BB-9C73-43B377B639B7.xcactivitylog</string>
+			<string>9A26962C-6DE8-4125-A9A8-D66169501E76.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>565691468.35438299</real>
+			<real>565697672.20658004</real>
 			<key>timeStoppedRecording</key>
-			<real>565691473.52028704</real>
+			<real>565697675.46356106</real>
 			<key>title</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>26CA3D5F-BB67-41BB-9C73-43B377B639B7</string>
+			<string>9A26962C-6DE8-4125-A9A8-D66169501E76</string>
 		</dict>
-		<key>4D8984C2-E8C8-4B27-8856-7F05D7BC039E</key>
+		<key>DFDB3676-61E1-42DB-8546-8291B5C68749</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4D8984C2-E8C8-4B27-8856-7F05D7BC039E.xcactivitylog</string>
+			<string>DFDB3676-61E1-42DB-8546-8291B5C68749.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,13 @@
 			<key>signature</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>565693209.18934906</real>
+			<real>565697316.35648</real>
 			<key>timeStoppedRecording</key>
-			<real>565693215.83589995</real>
+			<real>565697320.74641705</real>
 			<key>title</key>
 			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>4D8984C2-E8C8-4B27-8856-7F05D7BC039E</string>
+			<string>DFDB3676-61E1-42DB-8546-8291B5C68749</string>
 		</dict>
 	</dict>
 </dict>

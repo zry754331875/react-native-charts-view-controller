@@ -4,14 +4,16 @@
 Base on [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper).
 
 ## Supported Chart Type
-- Bar
-- Line
-- Scatter
-- Bubble
-- Pie
-- Radar
-- Combined
-- CandleStick
+- BarChart
+- HorizontalBarChart
+- LineChart
+- PieChart
+### Will To DO
+- BubbleChart
+- CandleStickChart
+- RadarChart
+- ScatterChart
+- CombinedChart
 
 ## Steps
  1. Install By [react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper)
