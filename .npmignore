@@ -1,2 +1,4 @@
 ios
 .DS_Store
+.vscode
+yarn.lock
