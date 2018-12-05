@@ -74,7 +74,7 @@ export class ChartListViewController extends Component {
   _keyExtractor = (_, index) => `${index}`;
 
   _renderItem = ({ item, index }) => {
-    return <ChartView item={item}/>;
+    return <ChartView item={item} style={{height:300}}/>;
   };
 
   render() {
@@ -83,7 +83,6 @@ export class ChartListViewController extends Component {
     return (
       <SafeAreaView>
         <FlatList
-          style={{flex: 1,}}
           keyExtractor={this._keyExtractor}
           data={data}
           renderItem={item => this._renderItem(item)}

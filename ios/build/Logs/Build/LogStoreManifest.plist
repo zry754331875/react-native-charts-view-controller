@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>26CA3D5F-BB67-41BB-9C73-43B377B639B7</string>
 		</dict>
+		<key>4D8984C2-E8C8-4B27-8856-7F05D7BC039E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D8984C2-E8C8-4B27-8856-7F05D7BC039E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>565693209.18934906</real>
+			<key>timeStoppedRecording</key>
+			<real>565693215.83589995</real>
+			<key>title</key>
+			<string>Building workspace Demo with scheme Demo and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>4D8984C2-E8C8-4B27-8856-7F05D7BC039E</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

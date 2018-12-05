@@ -42,17 +42,17 @@ export class ChartView extends Component {
 
   render() {
     
-    const {item} = this.props
-    console.log(item)
+    const {item,style} = this.props
+    
     if(!ChartsStyles[item.type] || !Charts[item.type]){
       return (<View></View>)
     }
-    
+    console.log(item)
     let chartProps = merge(ChartsStyles[item.type],item.chartData,{ arrayMerge: combineMerge })
     // console.log('chartProps',chartProps)
 
     return (
-      <View style={{...styles.container}}>
+      <View style={{...style}}>
           {
             React.createElement(Charts[item.type],{...styles.chart,...chartProps})
           }
