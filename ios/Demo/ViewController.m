@@ -31,7 +31,6 @@
                          initialProperties:dic
                              launchOptions: nil];
     
-//    rootView.frame = CGRectMake(0, 64, rootView.bounds.size.width, rootView.bounds.size.height);
     self.view = rootView;
 }
 
